@@ -13,6 +13,7 @@ import { IconDefinition } from '@ant-design/icons-angular';
 import * as AllIcons from '@ant-design/icons-angular/icons'
 import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 registerLocaleData(en);
 
@@ -33,6 +34,8 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     // DemoNgZorroAntdModule
     NgZorroAntdModule
   ],

@@ -1,1 +1,31 @@
 <p>article-add works!</p>
+<!-- <div>
+    <form [formGroup]="articleForm" (ngSubmit)="onFormSubmit()">
+        <div>
+            Add
+        </div>
+        <input id="title" name="title" formControlName="title" />
+        <input id="date" name="date" formControlName="date" />
+        <textarea id="body" name="body" formControlName="body" rows="4">
+        </textarea>
+    </form>
+</div> -->
+
+<div class="auto col-4 vertical-align h-100vh" style="padding: 50px 0;">
+    <div class="auto col-10 bg-white" style="padding: 20px 0;">
+        <div class="auto col-10">
+            <form [formGroup]="articleForm" (ngSubmit)="onFormSubmit()">
+                <button (click)="validate()">
+                    Add
+                </button>
+                <div for="title">
+                    Title
+                </div>
+                <input id="title" name="title" formControlName="title" />
+                <input id="date" name="date" formControlName="date" />
+                <textarea id="body" name="body" formControlName="body" rows="4">
+                </textarea>
+            </form>
+        </div>
+    </div>
+</div>
