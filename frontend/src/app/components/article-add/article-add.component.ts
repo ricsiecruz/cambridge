@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import Swal from 'sweetalert2';
-import { Article } from '../article';
+import { Article } from '../../article';
 
 @Component({
   selector: 'app-article-add',

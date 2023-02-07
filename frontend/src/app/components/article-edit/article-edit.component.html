@@ -10,7 +10,11 @@
                         Update
                     </div> 
                 </div> 
-                <input id="title" name="title"  class="form-control" placeholder="Title" [(ngModel)]="article.title" />
+                <!-- <div class="header"> -->
+                    Edit article 
+                    <div>{{ article.id }}</div>
+                <!-- </div> -->
+                <input id="title" name="title"  class="form-control margin-10-t" placeholder="Title" [(ngModel)]="article.title" />
                 <input id="date" name="date" class="form-control margin-10-0" placeholder="Date" [(ngModel)]="article.date" />
                 <textarea id="body" name="body" rows="10" class="form-control" placeholder="Body" [(ngModel)]="article.body">
                 </textarea>

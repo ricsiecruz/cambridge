@@ -1,0 +1,23 @@
+<!-- <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <input formControlName="username" placeholder="username" />
+    <input formControlName="email" placeholder="email" />
+    <button>
+        signin
+    </button>
+</form> -->
+<div class="auto col-4 text-center vertical-align h-100vh">
+    <div class="auto col-10 bg-white">
+        <div class="auto col-10">
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                <div class="header">
+                    Login
+                </div>
+                <input class="form-control input-box" formControlName="username" placeholder="username" />
+                <input class="form-control input-box margin-10-t" formControlName="email" placeholder="email" />
+                <button class="login-text col-12">
+                    LOGIN
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

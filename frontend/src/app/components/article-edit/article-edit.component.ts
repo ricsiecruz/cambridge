@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { ApiService } from 'src/app/services/api.service';
 import Swal from 'sweetalert2';
-import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-article-edit',
