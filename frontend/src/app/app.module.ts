@@ -14,6 +14,7 @@ import * as AllIcons from '@ant-design/icons-angular/icons'
 import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ArticleEditComponent } from './article-edit/article-edit.component';
 
 registerLocaleData(en);
 
@@ -28,7 +29,8 @@ const icons: IconDefinition[] = Object.keys(antDesignIcons).map(key => antDesign
     AppComponent,
     LoginComponent,
     HomeComponent,
-    ArticleAddComponent
+    ArticleAddComponent,
+    ArticleEditComponent
   ],
   imports: [
     BrowserModule,

@@ -13,6 +13,10 @@ body {
     margin: 0 auto !important;
 }
 
+.margin-10-0 {
+    margin: 10px 0;
+}
+
 .margin-10-t {
     margin-top: 10px;
 }
@@ -78,6 +82,11 @@ body {
 
 .add-btn {
     margin: 10px 0 30px auto;
+    // display: flex;
+    // justify-content: center;
+}
+
+.align-right {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }

@@ -1,0 +1,20 @@
+<div class="auto col-4 vertical-align h-100vh" style="padding: 50px 0;">
+    <div class="auto col-10 bg-white" style="padding: 20px 0;">
+        <div class="auto col-10" *ngIf="article">
+            <form>
+                <div class="row margin-0">
+                    <div class="col-6 add-btn vertical-align" [routerLink]="['/']">
+                        CANCEL
+                    </div>
+                    <div class="login-text col-6 add-btn" (click)="update()">
+                        Update
+                    </div> 
+                </div> 
+                <input id="title" name="title"  class="form-control" placeholder="Title" [(ngModel)]="article.title" />
+                <input id="date" name="date" class="form-control margin-10-0" placeholder="Date" [(ngModel)]="article.date" />
+                <textarea id="body" name="body" rows="10" class="form-control" placeholder="Body" [(ngModel)]="article.body">
+                </textarea>
+            </form>
+        </div>
+    </div>
+</div>

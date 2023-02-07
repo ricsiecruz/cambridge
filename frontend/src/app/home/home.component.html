@@ -5,11 +5,16 @@
             <div class="login-text col-6 offset-md-6 add-btn" [routerLink]="['/add-article']">
                 <i class="fa fa-plus" aria-hidden="true"></i> Add Article
             </div>                  
-            <div *ngFor="let data of jsonData" class="title">
-                Title: {{ data.title }}
-                <div style="font-weight
-                : normal;">
-                    Date: {{ data.date }}
+            <div *ngFor="let data of jsonData" class="title row">
+                <div class="col-10">
+                    Title: {{ data.title }}
+                    <div style="font-weight
+                    : normal;">
+                        Date: {{ data.date }}
+                    </div>
+                </div>
+                <div class="col-2 text-right">
+                    <i class="fa fa-pencil align-right" [routerLink]="['/edit-article', data.id]"></i>
                 </div>
             </div>
         </div>
