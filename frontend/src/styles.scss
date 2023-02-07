@@ -1,1 +1,83 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: #f3f3f3 !important;
+    font-family: 'Inter' !important;
+}
+
+.margin-0 {
+    margin: 0 !important;
+}
+
+.auto {
+    margin: 0 auto !important;
+}
+
+.margin-10-t {
+    margin-top: 10px;
+}
+
+.bg-white-d {
+    background-color: #ffffff;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.h-100vh {
+    min-height: 100vh;
+}
+
+.header {
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.37em;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+
+.input-box {
+    font-weight: 300 !important;
+    font-size: 13px !important;
+    line-height: 24px !important;
+    letter-spacing: 0.025em !important;
+    border: solid 1px #f3f3f3 !important;
+    padding: 11px 25px 13px 25px !important;
+    background-color: #f3f3f3 !important;
+    height: auto !important;
+    min-width: 0 !important;
+    border-radius: 0 !important;
+}
+
+.login-text {
+    display: inline-block;
+    outline: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.265em;
+    text-indent: 0.265em;
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    padding: 15px 0;
+    margin: 50px 0;
+}
+
+.title {
+    font-weight: 600;
+    color: #616161;
+    border: 1px solid #e4e4e4;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+
+.add-btn {
+    margin: 10px 0 30px auto;
+    display: flex;
+    justify-content: center;
+}
